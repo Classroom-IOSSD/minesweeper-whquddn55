@@ -1,9 +1,9 @@
 all: main
 
-main: conio.o minsweeper.o
-	gcc -g coino.o minsweeper.o -o main
+main: conio.o minesweeper.o
+	gcc -g conio.o minesweeper.o -o main
 
-conio.o: coino.c conio.h
+conio.o: conio.c conio.h
 	gcc -c conio.c -o conio.o
 
 minesweeper.o: minesweeper.c
